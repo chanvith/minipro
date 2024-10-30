@@ -65,7 +65,7 @@ $total_reservations = $result_reservations['total_reservations'];
                         <div class="icon">
                             <i class="ion ion-home"></i> <!-- Change icon to something cinema-related -->
                         </div>
-                        <a href="show_cinemas.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="add_cinema.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
@@ -79,7 +79,7 @@ $total_reservations = $result_reservations['total_reservations'];
                         <div class="icon">
                             <i class="ion ion-film-marker"></i> <!-- Change icon to something movie-related -->
                         </div>
-                        <a href="show_movies.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="add_movies.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
@@ -87,16 +87,7 @@ $total_reservations = $result_reservations['total_reservations'];
                 <!-- ./col -->
                 <div class="col-lg-3 col-6">
                     <!-- small box -->
-                    <div class="small-box bg-warning">
-                        <div class="inner">
-                            <h3><?php echo $total_reservations ?></h3>
-                            <p>Reservations</p>
-                        </div>
-                        <div class="icon">
-                            <i class="ion ion-android-checkmark-circle"></i> <!-- Change icon to something reservation-related -->
-                        </div>
-                        <a href="show_reservations.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-                    </div>
+                    
                 </div>
             </div>
             <!-- /.row -->
