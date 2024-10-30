@@ -65,7 +65,7 @@ $total_seats = $result_seats['total_seats'];
                         <div class="icon">
                             <i class="ion ion-film-marker"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="show_movies.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
@@ -79,7 +79,7 @@ $total_seats = $result_seats['total_seats'];
                         <div class="icon">
                             <i class="ion ion-home"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="show_movies.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
@@ -93,7 +93,7 @@ $total_seats = $result_seats['total_seats'];
                         <div class="icon">
                             <i class="ion ion-document-text"></i>
                         </div>
-                        <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
+                        <a href="view_reservations.php" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->
